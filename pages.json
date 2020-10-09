@@ -1,0 +1,74 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/nickName/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "设置昵称"
+			}
+		},
+		{
+		    "path" : "pages/audio/index",
+		    "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "听音乐"
+			}
+		},
+		{
+			"path": "pages/train/index",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTitleText": "训练",
+				"usingComponents": {
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "心理辅导机器人"
+			}
+		},
+		{
+			"path" : "pages/chatRoom/chatRoom",
+			"style" : {
+				"navigationBarTitleText": "聊天"
+			}
+		},
+		{
+		    "path" : "pages/takePhoto/takePhoto",
+		    "style" : {
+				"navigationBarTitleText": "拍照"
+			}
+		},
+		{
+		    "path" : "pages/default/index",
+		    "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "默认聊天页面"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "心理辅导机器人",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"van-icon": "/wxcomponents/vant/dist/icon/index",
+			"van-slider": "/wxcomponents/vant/dist/slider/index",
+			"van-popup": "/wxcomponents/vant/dist/popup/index",
+			"van-field": "/wxcomponents/vant/dist/field/index",
+			"van-button": "/wxcomponents/vant/dist/button/index",
+			"van-checkbox": "/wxcomponents/vant/dist/checkbox/index"
+		}
+	}
+}

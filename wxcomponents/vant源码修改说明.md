@@ -1,0 +1,10 @@
+1、uploader组件
+由于previewSize组件无法完整的支持宽高修改，所以
+新增传入参数previewHeight，支持高度修改，previewSize为width修改
+
+2、tabs组件
+传入参数color
+传入不支持渐变颜色，对应的index.js中的源码lineStyle将background-color改为background
+
+3、tag组件
+不支持渐变色传入，修改background代码
